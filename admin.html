@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCczxujgk64m9RGYdy2_9mIJ2LScOGpdaE&libraries=geometry" async defer></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js">
+    </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4&libraries=geometry" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>CarPort</title>
+</head>
+
+<body>
+
+    <div class="menu">
+        <img src="./img/logocolor.png">
+        <a href="#" id="menu-dashboard">Dashboard</a>
+        <a href="#" id="menu-add-marker">Add Location</a>
+        <a href="#" id="menu-view-markers">View Locations</a>
+        <a href="#" id="menu-bookings">Bookings</a>
+        <a href="#" id="menu-logout">Logout</a>
+    </div>
+    <div class="admin-dash">
+        <div class="admin-head">
+            <a id="btn-menu" class="btn"><i class="fas fa-bars"></i></a>
+            <h1>Dashboard</h1>
+        </div>
+
+        <a class="admin-button" href="add-marker.html"><i class="fas fa-car"></i>Add Parking Location</a>
+        <a class="admin-button" href="view-markers.html"><i class="fas fa-map-marker"></i>View Locations</a>
+        <a class="admin-button" href="view-bookings.html"><i class="fas fa-book"></i>View Bookings</a>
+        <a id="logout" class="admin-button" href="#" style="background: rgb(48, 48, 48); height: 50px; color: white; border-bottom: none;">Logout</a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/admin.js"></script>
+
+</body>
+
+</html>
