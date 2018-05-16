@@ -1,8 +1,8 @@
 var loginForm = document.getElementById('form-login');
 
-loginForm.addEventListener('submit', register);
+loginForm.addEventListener('submit', login);
 
-function register(e) {
+function login(e) {
     e.preventDefault();
 
     var email = (document.getElementById('form-email').value).trim();

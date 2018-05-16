@@ -28,6 +28,7 @@ function onSuccess(position) {
         zoom: 16,
         center: { lat: lat, lng: lng }
     }
+
     map = new this.google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
     var markerIcon = {

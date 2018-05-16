@@ -1,11 +1,7 @@
-const url = 'http://starlord.hackerearth.com/kickstarter';
 const id = localStorage.getItem('id');
 var bookings = [];
 const bookingDiv = document.getElementById("bookings");
 $(document).ready(function() {
-
-
-
     var timeStampInMs = window.performance && window.performance.now && window.performance.timing && window.performance.timing.navigationStart ? window.performance.now() + window.performance.timing.navigationStart : Date.now();
 
     console.log(Date.now());

@@ -1,4 +1,3 @@
-const url = 'http://starlord.hackerearth.com/kickstarter';
 const id = localStorage.getItem('id');
 var bookings = [];
 const bookingDiv = document.getElementById("bookings");

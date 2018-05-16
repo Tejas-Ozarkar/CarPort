@@ -22,8 +22,6 @@ function register(e) {
     } else if (!validateEmail(email)) {
         snackbar('Invalid email');
     } else {
-
-
         $.ajax({
             type: "POST",
             url: "http://carport.xrobotics.io/register.php",
